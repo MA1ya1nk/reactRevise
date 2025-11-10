@@ -1,0 +1,17 @@
+useContext
+
+when passing a prop in a file like
+app
+ |
+dashboard
+   |
+right
+
+so passing a prop from app to right we can acheive only through passing props in dashboard and then in right but dashboard has nothijng to do with prop so it is not very efficient way 
+
+Redux actually pass this data in organised way called state management Redux-toolkit also called and zustand also
+contextapi basically solve a problem like in normal js we can declare a global variable in this eg similarly like we cannot declare a normal variable in react so we can also not create a global var directly
+
+
+
+after learning first phase of useContext wecreate a page of dark and light theme so we have to declare the variable in gobal so we use useContext so that all component understand that it is either in dark or light 
