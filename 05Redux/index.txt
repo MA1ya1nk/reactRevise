@@ -1,0 +1,17 @@
+redux is state management tool but previously it is class based new function 
+based name is redux toolkit abd react-redux for use redux in react
+flux is also similar for state management
+
+                  redux
+
+store -> single source jahan se data aata h or global variable
+reducers -> minim store ot store ke andar store basically just an object
+useSelector -> selecting values from store
+useDispatcher -> value bhejni h store mai
+
+you can keep your store folder anywhere
+
+redux is independent library
+redux tool kit naming convention
+
+mpm i react-redux
