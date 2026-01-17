@@ -10,7 +10,7 @@ export const todoSlice = createSlice({
     name: 'todos',
     initialState,  
     reducers: {
-        // state gives all value access like no of todos etc
+        // state gives all value access like no of todos etc.
         // action jo bhi data pass ho rha
         addTodo: (state, action) => {
             const todo = {
