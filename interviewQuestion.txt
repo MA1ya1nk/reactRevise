@@ -1,0 +1,130 @@
+🔷 2) What is SPA (Single Page Application)?
+
+An SPA loads one HTML page and dynamically updates content without reloading the page. This makes apps faster and smoother.
+
+🔷 4) Functional vs Class Components
+
+Functional:
+
+Simple functions Use hooks Preferred now
+
+Class:
+
+Uses lifecycle methods Older approach
+
+🔷 10) useMemo
+
+Optimizes performance by memoizing values.
+
+👉 Prevents recalculating expensive functions.
+
+🔷 11) useCallback
+
+Memoizes functions so they don’t recreate on every render.
+
+Useful when passing functions to child components.
+
+🔷 12) useContext
+
+Allows sharing data globally without prop drilling.
+
+🔷 13) Component Lifecycle
+
+Mount → Update → Unmount
+
+Handled in functional components using useEffect.
+
+🔷 14) Lifting State Up
+
+Moving state to a common parent so multiple children can share it.
+
+🔷 15) Prop Drilling
+
+Passing props through many layers unnecessarily.
+
+Solved by Context API.
+
+🔷 16) Context API
+
+Global state sharing system built into React.
+
+🔷 18) React.memo
+
+Prevents re-render if props don’t change.
+
+🔷 19) Lazy Loading
+
+Loads components only when needed.
+
+Improves performance.
+
+🔷 20) Code Splitting
+
+Breaks bundle into smaller parts for faster loading.
+
+🔷 21) Controlled Components
+
+Form inputs controlled by React state.
+
+value={state}
+onChange={...}
+
+🔷 22) Uncontrolled Components
+
+Form data handled by DOM using refs.
+
+🔷 23) React Router
+
+Used for navigation in SPA.
+
+Key parts:
+
+Route
+
+Link
+
+useNavigate
+
+🔷 24) API Calls
+
+Done using fetch or axios inside useEffect.
+
+🔷 25) Why Keys Needed?
+
+Keys help React identify list items uniquely for efficient updates.
+
+🔷 26) Why Not Index as Key?
+
+Index changes when list changes → causes bugs and re-renders.
+
+🔷 27) Event Handling
+
+React uses synthetic events for cross-browser compatibility.
+
+🔷 28) Conditional Rendering
+condition ? A : B
+
+
+or
+
+{isLoggedIn && <Home />}
+
+🔷 29) List Rendering
+
+Using map:
+
+items.map(item => <li>{item}</li>)
+
+🔷 30) Custom Hooks
+
+Reusable functions using hooks.
+
+Example:
+
+useFetch()
+
+🔷 31) Error Boundaries
+
+Catch JS errors in components and prevent app crash.
+
+(Class components only.)
